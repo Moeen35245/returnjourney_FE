@@ -1,7 +1,7 @@
 'use client';
 import { useMutation, useQuery } from '@tanstack/react-query';
 
-const BASE_URL = 'http://localhost:5500'; // Replace with your API base URL
+const BASE_URL = 'https://mushy-boa-vestments.cyclic.cloud/'; //base url
 
 async function postData(url, data, token, isFormData) {
     // const headers = {
